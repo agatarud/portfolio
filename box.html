@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 id="name"><a href='index.html'>AGATA</a></h1>
+    <h1 id="surname"><a href='index.html'>RUDNICKA</a></h1>
+    <nav class="nav-menu">
+        <ul class="mobile-wrapper-projects">
+            <li><a href='index.html' id="portfolio-nowrap">portfolio</a></li>
+            <li> <a id = "portfolio-wrapper-projects">portfolio</a>
+                    <ul class = "dropdown-projects">
+                        <li> <a href='book1.html' id="book_1">Book design 1</a></li>
+                        <li> <a href='book2.html' id="book_2">Book design 2</a></li>
+                        <li> <a href='bookAR.html' id="book_AR">Book with AR</a></li>
+                        <li> <a href='covers.html' id="covers">Covers</a></li>
+                        <li>&nbsp;</li>
+                        <li> <a href='wayfinding.html' id="way">Wayfinding system</a></li>
+                        <li> <a href='posters.html' id="post">Posters</a></li>
+                        <br />
+                        <li> <a href='3Dspace.html' id="space3D">3D space</a></li>
+                        <li> <a href='animation.html' id="anim">Animation</a></li>
+                        <br />
+                        <li> <a href='coding.html' id="code">Creative coding</a></li>
+                        <br />
+                        <li> <a href='box.html' id="sensbox">Sensory box</a></li>
+                        <br />
+                        <li> <a href='spaces.html' id="museum">Projects in spaces</a></li>
+                        <li> <a href='drawing.html' id="draw">Drawing</a></li>
+                    </ul></li>
+            <li> <a href='cv.html' id="cv-projects-nowrap">cv</a></li>
+            <li> <a href='cv.html' id="cv-projects-wrap">cv</a></li>
+
+            <li> <a href='about.html'>about</a></li>
+        </ul>
+    </nav>
+    <div class="book1">
+   
+        <img id="book2_photo1" src="./images/img_box_a.jpg" alt="first photo of a book" >
+    
+        <div class="book1_text">
+        <h2>SENSORY BOX</h2>
+            <h3>Design of the book</h3>
+            <h3>Academic project</h3>
+            <h3>Tutor: Matti Niinimäki</h3>
+            <h3>December 2022</h3>
+        <p>Sensory box is an interactive device that could be 
+            useful in the treatment of tactile hypersensitivity. 
+            The inside of the box consists of elements that are 
+            supposed to resemble a forest to the touch. They are 
+            made with different fabrics and connected to the 
+            sensors that pass the signal to Arduino UNO. 
+            Electronics are hidden behind the bark, that is also 
+            interactive thanks to the conductive fabric and 
+            conductive thread. When the user touches the elements 
+            that trigger the sensors, different sound are emitted. 
+            Sound can overlap, fade in or fade out depending on 
+            the strength of touch. Sounds are made with samples 
+            from website bandlab.com and they are played from SD 
+            card that is connected to the WAV Trigger.</p>
+        </div>
+    </div>
+    <video id= "vid_box" width="1000" height="600"  controls>
+        <source src="./images/vid_box.mp4" type="video/mp4">
+      </video> 
+      <div class="contact">
+        <p>agatarudnick@gmail.com</p>
+        <p>+48 500 761 993</p>
+        <a href='https://www.instagram.com/yaco__taco/'>ig: yaco__taco</a>
+    </div>   
+</body>
+</html>
