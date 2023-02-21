@@ -24,7 +24,8 @@ const highlightMenu = () => {
 
     
 
-
+    $(function(){
+        if($('body').is('.PageType')){
     if(window.innerWidth > 960 && scrollPos < 1100){
         book1.classList.add('highlight')
         book2.classList.remove('highlight')
@@ -88,7 +89,10 @@ const highlightMenu = () => {
 }
 
 window.addEventListener('scroll', highlightMenu);
-window.addEventListener('click', highlightMenu)
+window.addEventListener('click', highlightMenu);
+    }
+    )}
+        
 
 // document.addEventListener("click", e => {
 //     const isDropdownButton = e.target.matches("[data-dropdown-button]")
