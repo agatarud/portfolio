@@ -87,11 +87,11 @@ const highlightMenu = () => {
         return
     }
 }
-
+}
+)}
 window.addEventListener('scroll', highlightMenu);
 window.addEventListener('click', highlightMenu);
-    }
-    )}
+
         
 
 // document.addEventListener("click", e => {
